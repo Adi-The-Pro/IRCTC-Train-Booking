@@ -1,0 +1,28 @@
+[
+  {
+    "user_id" : "1",
+    "name" : "Aditya Rathore",
+    "hashedPassword" : "abc123",
+    "tickets_booked" : [
+      {
+        "source" : "Pune",
+        "destination" : "Delhi",
+        "date_of_travel" : "2023-12-08T18:30:00Z",
+        "train" : {
+          "train_id" : "abcd",
+          "train_no" : "123456",
+          "seats" : [
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0]
+          ],
+          "stations" : {
+            "Bangalore" : "13:50:00",
+            "Jaipur" : "13:50:00"
+          }
+        }
+      }
+    ]
+  }
+]
