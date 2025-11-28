@@ -24,6 +24,9 @@ dependencies {
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation libs.guava
+
+    //Jackson Dependency to do object mapping
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.0.1'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.

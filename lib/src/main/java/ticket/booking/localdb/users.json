@@ -2,9 +2,11 @@
   {
     "user_id" : "1",
     "name" : "Aditya Rathore",
-    "hashedPassword" : "abc123",
+    "hashed_password" : "abc123",
     "tickets_booked" : [
       {
+        "ticket_id" : "1",
+        "user_id" :"1",
         "source" : "Pune",
         "destination" : "Delhi",
         "date_of_travel" : "2023-12-08T18:30:00Z",
